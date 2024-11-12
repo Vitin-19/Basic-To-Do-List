@@ -1,0 +1,177 @@
+html, body, section{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Times New Roman' ;
+}
+.Lista{
+    align-items: center;
+    width: 100%;
+}
+#AddTarefa{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Times New Roman'
+}
+#adicionarTarefa{
+    height: 35.5px;
+    width: 50px;
+    background-color: #F1B30B;
+    border-width: 1px;
+    margin-left: 10px;
+    border: 1px #97771d;
+}
+#excluirTarefa{
+    height: 35.5px;
+    width: 50px;
+    background-color: red;
+    border-width: 1px;
+    margin-left: 10px;
+    border: 1px darkred;
+}
+#editarTarefa{
+    height: 35.5px;
+    width: 50px;
+    background-color: cyan;
+    border-width: 1px;
+    margin-left: 10px;
+    border: 1px rgb(4, 83, 148);
+}
+#table{
+    align-items: center;
+    text-align: justify;
+    justify-items: flex-start;
+    line-height: 20px;
+    width: 100%;
+    border: 1px solid rgb(122, 119, 119);
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.inputs{
+    display: inline-flex;
+}
+
+@media screen and (max-width:365px) {
+    html, body, section{
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-family: 'Times New Roman' ;
+    }
+    .Lista{
+        align-items: center;
+        width: 100%;
+    }
+    #AddTarefa{
+        height: 30px;
+        width: 200px;
+        font-size: 20px;
+        font-family: 'Times New Roman'
+    }
+    #adicionarTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: #F1B30B;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px #97771d;
+    }
+    #excluirTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: red;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px darkred;
+    }
+    #editarTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: cyan;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px rgb(4, 83, 148);
+    }
+    #table{
+        align-items: center;
+        text-align: justify;
+        justify-items: flex-start;
+        line-height: 20px;
+        width: 100%;
+        border: 1px solid rgb(122, 119, 119);
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    #table tr td {
+        width: 200px;
+    }
+    .inputs{
+        display: inline-flex;
+    }
+}
+@media screen and (max-width:265px) {
+    html, body, section{
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        font-family: 'Times New Roman' ;
+    }
+    .Lista{
+        align-items: center;
+        width: 100%;
+    }
+    #AddTarefa{
+        height: 30px;
+        width: 150px;
+        font-size: 12px;
+        font-family: 'Times New Roman';
+    }
+    #adicionarTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: #F1B30B;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px #97771d;
+    }
+    #excluirTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: red;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px darkred;
+    }
+    #editarTarefa{
+        height: 35.5px;
+        width: 50px;
+        background-color: cyan;
+        border-width: 1px;
+        margin-left: 10px;
+        border: 1px rgb(4, 83, 148);
+    }
+    #table{
+        align-items: center;
+        text-align: justify;
+        justify-items: flex-start;
+        line-height: 20px;
+        width: 100%;
+        border: 1px solid rgb(122, 119, 119);
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    #table tr td {
+        width: 100px;
+        font-size: 12px;
+    }
+    .inputs{
+        display: inline-flex;
+    }
+}
